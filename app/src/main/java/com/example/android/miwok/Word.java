@@ -5,7 +5,8 @@ public class Word {
     //declare Word class variables
     private String mDefaultTranslation;
     private String mMiwoktranslation;
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+    private static final int NO_IMAGE_PROVIDED = -1;
 
 
     //constructor needs to have the same name as the class
@@ -32,5 +33,10 @@ public class Word {
 
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    //returns whether or not there is an image for this word
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }
