@@ -32,14 +32,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("red", "Rot", R.drawable.color_red));
-        words.add(new Word("mustard yellow", "Gelb", R.drawable.color_mustard_yellow));
-        words.add(new Word("dusty yellow", "Senf", R.drawable.color_dusty_yellow));
-        words.add(new Word("green", "Grün", R.drawable.color_green));
-        words.add(new Word("brown", "Brown", R.drawable.color_brown));
-        words.add(new Word("gray", "Grau", R.drawable.color_gray));
-        words.add(new Word("black", "Schwarz", R.drawable.color_black));
-        words.add(new Word("white", "Weiss", R.drawable.color_white));
+        words.add(new Word("rojo", "Rot", R.drawable.color_red));
+        words.add(new Word("amarillo", "Gelb", R.drawable.color_mustard_yellow));
+        words.add(new Word("mostaza", "Senf", R.drawable.color_dusty_yellow));
+        words.add(new Word("verde", "Grün", R.drawable.color_green));
+        words.add(new Word("marron", "Brown", R.drawable.color_brown));
+        words.add(new Word("gris", "Grau", R.drawable.color_gray));
+        words.add(new Word("negro", "Schwarz", R.drawable.color_black));
+        words.add(new Word("blanco", "Weiss", R.drawable.color_white));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
